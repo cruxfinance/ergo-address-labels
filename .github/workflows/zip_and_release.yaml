@@ -1,0 +1,22 @@
+name: Zip and Upload
+
+on:
+  push:
+    branches:
+      - main # Change this to your main branch name
+
+jobs:
+  zip-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Zip Folder
+        run: |
+          zip -r labels.zip labels
+
+      - name: Create Release and Upload Zip
+        run: |
+          gh release create v${{ github.run_number }} ./labels.zip -t "Release v${{ github.run_number }}"
