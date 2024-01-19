@@ -47,6 +47,6 @@
             "label": "Phoenix HodlCOMET 10% Fee",
             "description": "Fee contract for which receives funds upon burn in HodlCOMET 10%",
             "repo": "phoenix-hodlcoin-contracts/blob/main/hodlToken/contracts/phoenix_fee_contract/v1/ergoscript/phoenix_v1_hodltoken_fee.es"
-        },
+        }
     ]
 }
