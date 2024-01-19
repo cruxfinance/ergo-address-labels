@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read # enable write permissions for pull request comments
+  pull-requests: write # enable write permissions for pull request comments
 
 jobs:
   json-yaml-validate:
@@ -23,3 +23,4 @@ jobs:
           comment: "false" # enable comment mode
           json_schema: "schema.json"
           base_dir: "./labels"
+          github_token: ${{ secrets.GH_TOKEN }}

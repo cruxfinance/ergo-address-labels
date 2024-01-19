@@ -18,5 +18,7 @@ jobs:
           zip -r labels.zip labels
 
       - name: Create Release and Upload Zip
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           gh release create v${{ github.run_number }} ./labels.zip -t "Release v${{ github.run_number }}"
