@@ -52,7 +52,7 @@ defined in the json.
   "organisation_name": "Spectrum Labs",
   "github": "https://github.com/spectrum-finance",
   "url": "https://spectrum.fi",
-  "social": [
+  "socials": [
     { "platform": "Telegram", "link": "Add tg link here" }
   ],
   "labels": [

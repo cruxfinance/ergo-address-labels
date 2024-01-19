@@ -2,7 +2,7 @@
     "organisation_name": "Ergopad",
     "github": "https://github.com/ergopad",
     "url": "https://ergopad.io",
-    "social": [
+    "socials": [
         {"platform": "Telegram", "link": "Add tg link here"}
     ],
     "labels": [
