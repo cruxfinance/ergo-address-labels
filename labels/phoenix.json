@@ -2,7 +2,7 @@
     "organisation_name": "Phoenix",
     "github": "https://github.com/PhoenixErgo",
     "url": "https://phoenixfi.app",
-    "social": [
+    "socials": [
         {"platform": "X", "link": "https://x.com/PhoenixErgo"}
     ],
     "labels": [
